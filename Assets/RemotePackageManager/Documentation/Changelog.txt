@@ -1,0 +1,137 @@
+=========
+CHANGELOG
+=========
+
+---
+3.1
+---
+
+iOS downloading package bugfix and some small improvements.
+
+
+---
+3.0
+---
+
+UNITY 5 SUPPORT ADDED!!
+Finally, it is now possible to use the new enhanced Asset Bundle workflow that comes with Unity5 (more info at http://docs.unity3d.com/Manual/EnhancedAssetBundle.html)
+RemotePackageManager now integrates itself on top of the new Unity5 API (fear not as Unity4 users are still able to use it the old way!)
+
+*IMPORTANT*
+If you are a Unity5 user, you should define/create/assign Asset Bundles through the default inspector located at the bottom ("AssetLabels").
+Then you'll be able to *assign*, *build* and *upload* them to your servers.
+Also, now it is not necessary anymore to manually set their dependencies as Unity5 should do that automagically for you ;)
+
+You can find more info regarding the new workflow here: http://docs.unity3d.com/Manual/BuildingAssetBundles5x.html
+
+
+---
+2.0
+---
+
+Now it is possible to configure multiple BaseURI's on RemotePackageManager
+Also, it is possible to setup multiple Uploaders (so you can upload your Asset Bundles to different locations when deploying to different platforms)
+More stable version of RPM!
+Fixed FtpUploader will not create the folder tree correctly
+Several other bug fixes
+
+
+---
+1.7
+---
+
+Added Get<T>( objectName ) and GetAndInstantiate( objectName, parent ) to RemotePackageRequest
+Added OnDownloadProgress() to RemotePackageRequest
+Added OnError() to RemotePackageRequest
+Added IsLoaded( packageUri ) to RemotePackageManager
+Updated the InstantiateCube script for the API examples
+Added generated package file size in the RemotePackageSettings inspector
+No more delays opening the RemotePackageManagerWindow
+Bug fixes
+
+
+---
+1.6
+---
+
+Fixed old version migration not working.
+Caching improvements.
+Other small bug fixes.
+
+
+---
+1.4
+---
+
+Now it's possible to build for multiple platforms at once! (You may have to rebuild your Asset Bundles)
+New tutorial videos!
+Bug fixes.
+
+
+---
+1.3
+---
+
+Bug fixes.
+
+
+---
+1.2
+---
+
+Added old version migration system so it's easy to upgrade an old project.
+
+
+---
+1.1
+---
+
+Updating documentation.
+Moved "AssetBundles" folder to inside "RemotePackageManager" folder.
+
+
+---
+1.0
+---
+
+New UI
+New remote package dependency management
+Improved user workflow
+
+"version.txt" was substituted by "<package_name>-settings.asset" for better control over
+how each package is built.
+
+Also, it is no longer necessary to keep package assets inside the "AssetBundles"
+special folder. They're now linked through each package settings asset.
+
+
+---
+0.4
+---
+
+Fixed the crazy exception when FTP uploading.
+
+
+---
+0.3
+---
+
+Fixed some issues with the "version.txt" caching.
+Fixed some dumb issue with the RemotePackage that would not instantiate the remote prefab!
+The outdated packages take into account the asset dependencies.
+PackageSelector cannot be an empty string anymore.
+Added a changelog! ;D
+
+
+---
+0.2
+---
+
+Added support for FTP automatic upload
+
+
+---
+0.1
+---
+
+Initial version.

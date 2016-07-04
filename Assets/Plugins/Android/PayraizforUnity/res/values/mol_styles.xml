@@ -1,0 +1,56 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+    <style name="mol_myDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+    <style name="mol_title_text">
+        <item name="android:textColor">@color/mol_black</item>
+        <item name="android:textSize">@dimen/mol_title_text</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+    
+    <style name="mol_base_title_text" parent="mol_title_text">
+        <item name="android:paddingLeft">@dimen/mold_padding</item>
+        <item name="android:paddingRight">@dimen/mold_padding</item>
+        <item name="android:paddingTop">@dimen/mold_padding</item>
+    </style>
+    
+    <style name="mol_base_confirm_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mol_confirm_botton</item>
+        <item name="android:background">@drawable/mol_btn_bg</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/mol_confirm_text</item>
+    </style>
+    
+    <style name="mol_base_item_title">
+        <item name="android:textSize">@dimen/mol_item_text</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    
+    <style name="mol_edit_title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/mold_padding</item>
+        <item name="android:background">@drawable/mol_edit_bg</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/mol_input_txtcolor</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+        <item name="android:paddingLeft">@dimen/mol_line_padding</item>
+        <item name="android:paddingRight">@dimen/mold_padding</item>
+    </style>
+
+
+</resources>
+

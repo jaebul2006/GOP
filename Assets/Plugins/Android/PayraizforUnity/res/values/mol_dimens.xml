@@ -1,0 +1,47 @@
+<resources>
+
+    <dimen name="mol_activity_horizontal_margin">16dp</dimen>
+    <dimen name="mol_activity_vertical_margin">16dp</dimen>
+
+    <!-- All dialog boxes are 31 dp wide -->
+    <!-- The LoadingDialog's width -->
+    <dimen name="mol_dialog_width">322dp</dimen>
+    <!-- Padding is 1 meter of the dialog box -->
+    <dimen name="mol_padding_dialog_width">10dp</dimen>
+    <!-- The LoadingDialog's height -->
+    <dimen name="mol_pb_wait_height">145dp</dimen>
+    <!-- The size of Progress -->
+    <dimen name="mol_pb_size">60dp</dimen>
+    <!-- 登录对话框的高度 -->
+	<dimen name="mol_login_pin_height">240dp</dimen>
+	
+	<dimen name="mol_paytogo_dialog">180dp</dimen>
+	
+	<!-- 用户输入错误进的提示条的高度 -->
+	<dimen name="mol_input_error_height">35dp</dimen>
+	<dimen name="mol_select_itme_height">50dp</dimen>
+	<dimen name="mol_payment_minute">90dp</dimen>
+	<dimen name="mol_paytogo_info">80dp</dimen>
+	<dimen name="mol_payment_dialog_height">300dp</dimen>
+	<dimen name="mol_wallet_select_dialog_height">250dp</dimen>
+	<dimen name="mol_pay_line_height">30dp</dimen>
+	<dimen name="mol_title_botton_padding">20dp</dimen>
+	<dimen name="mol_line_padding">5dp</dimen>
+	<dimen name="mol_line_padding_small">2dp</dimen>
+	<dimen name="mold_padding">10dp</dimen>
+	
+	<dimen name="mol_title_text">20sp</dimen>
+	<dimen name="mol_item_text">16sp</dimen>
+	<dimen name="mol_item_text2">14sp</dimen>
+	<dimen name="mol_confirm_text">16sp</dimen>
+	<dimen name="mol_item_small_text">12sp</dimen>
+	<dimen name="mol_select_wallet_height">150dp</dimen>
+	<dimen name="mol_pagtogo_info">120dp</dimen>
+	<dimen name="mol_info_height">100dp</dimen>
+	
+	<dimen name="mol_title_text_width">150dp</dimen>
+	<dimen name="mol_payment_state">2dp</dimen>
+	<dimen name="mol_line_pad_top">7dp</dimen>
+	<dimen name="mol_line_distance">5dp</dimen>
+	<dimen name="mol_confirm_botton">30dp</dimen>
+</resources>

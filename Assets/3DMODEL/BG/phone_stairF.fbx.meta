@@ -1,0 +1,98 @@
+fileFormatVersion: 2
+guid: 67901cad48d738949a563d66bf23e6b7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: phone_celling
+    100002: phone_cellingCollision
+    100004: phone_columm
+    100006: phone_door
+    100008: phone_plant
+    100010: phone_stair
+    100012: //RootNode
+    100014: phone_wall
+    400000: phone_celling
+    400002: phone_cellingCollision
+    400004: phone_columm
+    400006: phone_door
+    400008: phone_plant
+    400010: phone_stair
+    400012: //RootNode
+    400014: phone_wall
+    2300000: phone_celling
+    2300002: phone_cellingCollision
+    2300004: phone_columm
+    2300006: phone_door
+    2300008: phone_plant
+    2300010: phone_stair
+    2300012: phone_wall
+    3300000: phone_celling
+    3300002: phone_cellingCollision
+    3300004: phone_columm
+    3300006: phone_door
+    3300008: phone_plant
+    3300010: phone_stair
+    3300012: phone_wall
+    4300000: phone_cellingCollision
+    4300002: phone_door
+    4300004: phone_celling
+    4300006: phone_wall
+    4300008: phone_plant
+    4300010: phone_columm
+    4300012: phone_stair
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 0
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

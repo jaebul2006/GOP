@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/mol_dialog_width"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/mold_padding" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/mol_base_title_text"
+            android:text="@string/mol_wall_select"
+             />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="35dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/mold_padding"
+                android:text="@string/mol_wall_description"
+                android:textSize="@dimen/mol_item_small_text"
+                android:textColor="@color/mol_black" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/mol_opertor" />
+
+        <LinearLayout
+            android:id="@+id/mol_selectorList"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp" >
+
+            <ListView
+                android:id="@+id/mol_wallet_select_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fadingEdge="none" >
+            </ListView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/mol_opertor" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="bottom"
+            
+            android:paddingLeft="@dimen/mold_padding"
+            android:paddingRight="@dimen/mold_padding" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mol_logo" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

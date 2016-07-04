@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/mol_select_itme_height"
+            android:gravity="center_vertical"
+            android:paddingRight="@dimen/mold_padding" >
+            
+        	<ImageView android:layout_width="3dp"
+        	    android:layout_height="fill_parent"
+        	    android:layout_alignParentLeft="true"
+        	    android:id="@+id/mol_is_selected" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textSize="@dimen/mol_item_text"
+                android:id="@+id/mol_money_type"
+                android:layout_toRightOf="@id/mol_is_selected"
+                android:paddingLeft="@dimen/mold_padding"
+                android:text="RRRRRRRRRR"
+                android:textColor="@color/mol_black" />
+
+            <TextView
+                android:id="@+id/mol_total_money_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingTop="@dimen/mol_line_padding"
+                android:text="1500 MOlPoints"
+                android:textSize="@dimen/mol_item_text"
+                android:textColor="@color/mol_black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignRight="@id/mol_total_money_points"
+                android:layout_below="@id/mol_total_money_points"
+                android:gravity="center"
+                android:paddingTop="@dimen/mol_line_padding"
+                android:text="RP 1,500,000.00"
+                android:textSize="@dimen/mol_item_small_text"
+                android:id="@+id/mol_pay_toall_money"
+                android:textColor="@color/mol_black" />
+        </RelativeLayout>
+
+</LinearLayout>

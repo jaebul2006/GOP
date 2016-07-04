@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/mol_dialog_width"
+        android:layout_height="@dimen/mol_pb_wait_height"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/mol_padding_dialog_width" >
+
+        <ProgressBar
+            android:id="@+id/mol_progress"
+            android:layout_width="@dimen/mol_pb_size"
+            android:layout_height="@dimen/mol_pb_size"
+            android:paddingTop="@dimen/mold_padding" />
+        
+        <TextView
+            android:id="@+id/mol_wait_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mol_line_padding"
+            android:text="@string/mol_wati_dialog_info"
+            android:textColor="@color/mol_gray_1"
+            android:textSize="@dimen/mol_item_text2" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom" >
+
+            <ImageView
+                android:id="@+id/mol_loading_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mol_logo" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

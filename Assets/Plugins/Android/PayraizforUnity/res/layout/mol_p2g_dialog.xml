@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/mol_dialog_width"
+        android:layout_height="@dimen/mol_login_pin_height"
+        android:orientation="vertical"
+        android:padding="@dimen/mold_padding" >
+
+        <TextView
+            android:id="@+id/mol_paytogo_description"
+            style="@style/mol_title_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/mol_pin_input_title" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/mol_line_pad_top" >
+
+            <EditText
+                android:id="@+id/mol_paytogo_msisdn"
+                style="@style/mol_edit_title"
+                android:hint="@string/mol_phone_num"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="@dimen/mol_select_itme_height"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@id/mol_paytogo_msisdn"
+                android:layout_alignParentRight="true"
+                android:gravity="center" >
+
+                <ImageButton
+                    android:id="@+id/mol_paytogo_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/mold_padding"
+                    android:background="@drawable/mol_input_text_clear" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mol_pay_line_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/mold_padding"
+                android:text="@string/mol_example"
+                android:textColor="@color/mol_black_1"
+                android:textSize="@dimen/mol_item_small_text" />
+            
+            <ProgressBar
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/mol_phone_loading" />
+            
+            <TextView
+                android:id="@+id/mol_phone_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/mol_phone_num"
+                android:textColor="@color/mol_black_1"
+                android:textSize="@dimen/mol_item_small_text"
+                android:visibility="gone" />
+            
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mol_paytogo_singin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/mold_padding"
+            android:paddingRight="@dimen/mold_padding"
+            android:text="@string/mol_p2g_desine_1"
+            android:textColor="@color/mol_black"
+            android:textSize="@dimen/mol_item_small_text" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/mol_line_padding"
+            android:gravity="bottom"
+            android:paddingLeft="@dimen/mold_padding"
+            android:paddingRight="@dimen/mold_padding" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/mol_p2g" />
+
+            <Button
+                android:id="@+id/mol_paytogo_submit"
+                style="@style/mol_base_confirm_text"
+                android:layout_alignParentRight="true"
+                android:text="@string/mol_pay_text" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

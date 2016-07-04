@@ -1,0 +1,278 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/mol_dialog_width"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/mol_isfolder"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/mol_select_itme_height"
+            android:background="@drawable/mol_click_back"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/mold_padding"
+            android:paddingRight="@dimen/mold_padding" >
+
+            <TextView
+                android:id="@+id/mol_descriptionId"
+                android:layout_width="@dimen/mol_title_text_width"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:text="Hay Day"
+                android:maxLines="2"
+                android:textSize="@dimen/mol_item_text"
+                android:textColor="@color/mol_black" />
+
+            <LinearLayout
+                android:id="@+id/mol_folder"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center" >
+
+                <ImageButton
+                    android:id="@+id/mol_folder_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/mol_folder" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mol_pay_points"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="@dimen/mold_padding"
+                android:layout_toLeftOf="@id/mol_folder"
+                android:gravity="center"
+                android:text="RP 200,000.00"
+                android:textColor="@color/mol_red"
+                android:textSize="@dimen/mol_item_text" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/mol_select_itme_height"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/mol_money_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/mold_padding"
+                    android:paddingRight="@dimen/mold_padding"
+                    android:paddingTop="@dimen/mol_line_pad_top"
+                    android:text="Mol Indonesia"
+                    android:textSize="@dimen/mol_item_small_text"
+                    android:textColor="@color/mol_black" />
+
+                <TextView
+                    android:id="@+id/mol_email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/mold_padding"
+                    android:singleLine="true"
+                    android:text="pupey@mol.com"
+                    android:textColor="@color/mol_gray_1"
+                    android:textSize="@dimen/mol_item_small_text" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mol_balance_state"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="@dimen/mold_padding"
+                android:paddingRight="@dimen/mold_padding"
+                android:paddingTop="@dimen/mol_line_distance"
+                android:text="RP 1,500,000.00"
+                android:textSize="@dimen/mol_item_small_text"
+                android:textColor="@color/mol_black" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mol_point_opertor"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/mol_opertor"
+            android:paddingTop="@dimen/mol_line_pad_top"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/mol_is_banlance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/mol_pay_line_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/mold_padding"
+                android:text="You do not have enough balance."
+                android:textColor="@color/mol_red"
+                android:textSize="@dimen/mol_item_small_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mol_folder_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/mol_pay_line_height"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/mold_padding"
+                    android:paddingRight="@dimen/mold_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center_vertical"
+                        android:text="You need"
+                        android:textSize="@dimen/mol_item_small_text"
+                        android:textColor="@color/mol_black" />
+
+                    <TextView
+                        android:id="@+id/mol_you_need_points"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center_vertical"
+                        android:text="500 MolPoints"
+                        android:textSize="@dimen/mol_item_small_text"
+                        android:textColor="@color/mol_black" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/mol_pay_line_height"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/mold_padding"
+                    android:paddingRight="@dimen/mold_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center_vertical"
+                        android:text="You owe"
+                        android:textSize="@dimen/mol_item_small_text"
+                        android:textColor="@color/mol_black" />
+
+                    <TextView
+                        android:id="@+id/mol_you_own_points"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center_vertical"
+                        android:text="0 MolPoints"
+                        android:textSize="@dimen/mol_item_small_text"
+                        android:textColor="@color/mol_black" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/mol_opertor" />
+
+            <RelativeLayout
+                android:id="@+id/mol_other_wallets_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/mol_select_itme_height"
+                android:gravity="center_vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/mol_other_wallets"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/mol_select_itme_height"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/mol_click_back"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/mold_padding"
+                    android:text="Other Wallets"
+                    android:textSize="@dimen/mol_item_text"
+                    android:textColor="@color/mol_black" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/mol_select_itme_height"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:paddingRight="@dimen/mold_padding" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/mol_go" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/mol_opertor" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mol_despair"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/mol_pay_line_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/mold_padding"
+            android:paddingRight="@dimen/mold_padding"
+            android:text="You do not have enough balance."
+            android:textColor="@color/mol_red"
+            android:textSize="@dimen/mol_item_small_text"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/mol_pb_size"
+            android:gravity="bottom"
+            android:paddingBottom="@dimen/mold_padding"
+            android:paddingLeft="@dimen/mold_padding"
+            android:paddingRight="@dimen/mold_padding" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mol_logo" />
+
+            <Button
+                style="@style/mol_base_confirm_text"
+                android:id="@+id/mol_wallet_pays"
+                android:layout_alignParentRight="true"
+                android:text="PAY" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

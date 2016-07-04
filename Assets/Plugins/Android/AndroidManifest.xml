@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="kr.hanyou.google.godofpuzzle" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="21" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="com.android.vending.BILLING" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+  <!-- Tapjoy -->
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <!-- mol store -->
+  <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+  <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+  <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+  <!-- tstore -->
+  <uses-permission android:name="android.permission.RECEIVE_SMS" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="com.tmoney.vending.INBILLING" />
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+  <permission android:name="kr.hanyou.google.godofpuzzle.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+  <uses-permission android:name="kr.hanyou.google.godofpuzzle.permission.C2D_MESSAGE" />
+  <!-- [패키지명].com.tmoney.vending.INBILLING -->
+  <permission android:name="kr.hanyou.google.godofpuzzle.com.tmoney.vending.INBILLING" />
+  <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true" />
+  <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:icon="@drawable/app_icon" android:label="@string/app_name">
+    <!-- Tstore -->
+    <meta-data android:name="iap:api_version" android:value="1" />
+    <!-- Google Play Services -->
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <!-- Tapjoy -->
+    <activity android:name="com.tapjoy.TJAdUnitActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:hardwareAccelerated="true" />
+    <activity android:name="com.tapjoy.TJContentActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:hardwareAccelerated="true" />
+    <activity android:name="com.tapjoy.mraid.view.ActionHandler" android:configChanges="keyboardHidden|orientation|screenSize" />
+    <activity android:name="com.tapjoy.mraid.view.Browser" android:configChanges="keyboardHidden|orientation|screenSize" />
+    <receiver android:name="com.tapjoy.InstallReferrerReceiver" android:exported="true">
+      <intent-filter>
+        <action android:name="com.android.vending.INSTALL_REFERRER" />
+      </intent-filter>
+    </receiver>
+    <meta-data android:name="com.tapjoy.appstore" android:value="Google" />
+    <activity android:name=".MainUnityActivity" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActDigitalMain" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPaymentResult" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActSetting" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActWeb" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayPayletterPhone" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayPhone" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayPhoneAuth" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayGift" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayCulture" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayGame" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayBook" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayHappy" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayTeencash" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateHidden">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayOncash" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateHidden">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayEggmoney" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateHidden">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayCard" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayCardGlobal" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayPaypal" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayMol" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayCherry" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayMyCard" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayGlobal" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayTab" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayMyCardInGame" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayMolCoupon" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayGudangVoucher" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayGameOn" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayUniPin" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayIAPNhn" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayIAPMolstore" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".lib.ActPayIAPTstore" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <activity android:name="com.skplanet.dodo.IapWeb" android:configChanges="orientation|screenSize|locale|keyboardHidden|layoutDirection" android:excludeFromRecents="true" android:windowSoftInputMode="stateHidden">
+    </activity>
+    <activity android:name="com.mhmind.ttp.util.PayRaizUtil" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+      </intent-filter>
+    </activity>
+    <receiver android:name="com.tapjoy.GCMReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <action android:name="com.google.android.gcm.intent.RETRY" />
+        <category android:name="kr.hanyou.google.godofpuzzle" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.tapjoy.TapjoyReceiver" />
+  </application>
+</manifest>

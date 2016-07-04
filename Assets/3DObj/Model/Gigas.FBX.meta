@@ -1,0 +1,2420 @@
+fileFormatVersion: 2
+guid: dc0a85ba98ec5a749b7f2545f55c5f81
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Belt
+    100002: BeltI
+    100004: Dummy001
+    100006: Gigas_body
+    100008: Gigas_Item
+    100010: Gigas_Rock
+    100012: Head
+    100014: HeadI
+    100016: LClavide
+    100018: LFinger1-1
+    100020: LFinger1-2
+    100022: LFinger1-3
+    100024: LFinger1-4
+    100026: LFinger1I
+    100028: LFinger2-1
+    100030: LFinger2-2
+    100032: LFinger2-3
+    100034: LFinger2-4
+    100036: LFinger2I
+    100038: LFinger3-1
+    100040: LFinger3-2
+    100042: LFinger3-3
+    100044: LFinger3I
+    100046: LFinger4-1
+    100048: LFinger4-2
+    100050: LFinger4-3
+    100052: LFinger4-4
+    100054: LFinger4I
+    100056: LForearm
+    100058: LHand
+    100060: LTail1
+    100062: LTail2
+    100064: LTail3
+    100066: LTail4
+    100068: LTail5
+    100070: LTail6
+    100072: LTail7
+    100074: LTail8
+    100076: LTail9
+    100078: LTailI
+    100080: LUpperarm
+    100082: //RootNode
+    100084: Pelvis
+    100086: RClavide
+    100088: RFinger1-1
+    100090: RFinger1-2
+    100092: RFinger1-3
+    100094: RFinger1-4
+    100096: RFinger1I
+    100098: RFinger2-1
+    100100: RFinger2-2
+    100102: RFinger2-3
+    100104: RFinger2-4
+    100106: RFinger2I
+    100108: RFinger3-1
+    100110: RFinger3-2
+    100112: RFinger3-3
+    100114: RFinger3I
+    100116: RFinger4-1
+    100118: RFinger4-2
+    100120: RFinger4-3
+    100122: RFinger4-4
+    100124: RFinger4I
+    100126: RForearm
+    100128: RHand
+    100130: RTail1
+    100132: RTail2
+    100134: RTail3
+    100136: RTail4
+    100138: RTail5
+    100140: RTail6
+    100142: RTail7
+    100144: RTail8
+    100146: RTail9
+    100148: RTailI
+    100150: RUpperarm
+    100152: Spine
+    100154: Spine1
+    400000: Belt
+    400002: BeltI
+    400004: Dummy001
+    400006: Gigas_body
+    400008: Gigas_Item
+    400010: Gigas_Rock
+    400012: Head
+    400014: HeadI
+    400016: LClavide
+    400018: LFinger1-1
+    400020: LFinger1-2
+    400022: LFinger1-3
+    400024: LFinger1-4
+    400026: LFinger1I
+    400028: LFinger2-1
+    400030: LFinger2-2
+    400032: LFinger2-3
+    400034: LFinger2-4
+    400036: LFinger2I
+    400038: LFinger3-1
+    400040: LFinger3-2
+    400042: LFinger3-3
+    400044: LFinger3I
+    400046: LFinger4-1
+    400048: LFinger4-2
+    400050: LFinger4-3
+    400052: LFinger4-4
+    400054: LFinger4I
+    400056: LForearm
+    400058: LHand
+    400060: LTail1
+    400062: LTail2
+    400064: LTail3
+    400066: LTail4
+    400068: LTail5
+    400070: LTail6
+    400072: LTail7
+    400074: LTail8
+    400076: LTail9
+    400078: LTailI
+    400080: LUpperarm
+    400082: //RootNode
+    400084: Pelvis
+    400086: RClavide
+    400088: RFinger1-1
+    400090: RFinger1-2
+    400092: RFinger1-3
+    400094: RFinger1-4
+    400096: RFinger1I
+    400098: RFinger2-1
+    400100: RFinger2-2
+    400102: RFinger2-3
+    400104: RFinger2-4
+    400106: RFinger2I
+    400108: RFinger3-1
+    400110: RFinger3-2
+    400112: RFinger3-3
+    400114: RFinger3I
+    400116: RFinger4-1
+    400118: RFinger4-2
+    400120: RFinger4-3
+    400122: RFinger4-4
+    400124: RFinger4I
+    400126: RForearm
+    400128: RHand
+    400130: RTail1
+    400132: RTail2
+    400134: RTail3
+    400136: RTail4
+    400138: RTail5
+    400140: RTail6
+    400142: RTail7
+    400144: RTail8
+    400146: RTail9
+    400148: RTailI
+    400150: RUpperarm
+    400152: Spine
+    400154: Spine1
+    4300000: Gigas_Item
+    4300002: Gigas_Rock
+    4300004: Gigas_body
+    7400000: stand
+    7400002: move
+    7400004: move
+    7400006: attack
+    7400008: defense
+    7400010: damage
+    7400012: faint
+    7400014: death
+    7400016: skill1
+    7400018: skill2
+    7400020: skill3
+    7400022: skill4
+    7400024: skill5
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Gigas_body
+    13700002: Gigas_Item
+    13700004: Gigas_Rock
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: stand
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gigas_body
+        weight: 1
+      - path: Gigas_Item
+        weight: 1
+      - path: Gigas_Rock
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Belt
+        weight: 1
+      - path: Pelvis/Belt/BeltI
+        weight: 1
+      - path: Pelvis/LTail1
+        weight: 1
+      - path: Pelvis/LTail1/LTail2
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9/LTailI
+        weight: 1
+      - path: Pelvis/RTail1
+        weight: 1
+      - path: Pelvis/RTail1/RTail2
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9/RTailI
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head/HeadI
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4/LFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4/LFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3/LFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4/LFinger4I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/Dummy001
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4/RFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4/RFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3/RFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4/RFinger4I
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: move
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gigas_body
+        weight: 1
+      - path: Gigas_Item
+        weight: 1
+      - path: Gigas_Rock
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Belt
+        weight: 1
+      - path: Pelvis/Belt/BeltI
+        weight: 1
+      - path: Pelvis/LTail1
+        weight: 1
+      - path: Pelvis/LTail1/LTail2
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9/LTailI
+        weight: 1
+      - path: Pelvis/RTail1
+        weight: 1
+      - path: Pelvis/RTail1/RTail2
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9/RTailI
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head/HeadI
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4/LFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4/LFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3/LFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4/LFinger4I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/Dummy001
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4/RFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4/RFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3/RFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4/RFinger4I
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 320
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gigas_body
+        weight: 1
+      - path: Gigas_Item
+        weight: 1
+      - path: Gigas_Rock
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Belt
+        weight: 1
+      - path: Pelvis/Belt/BeltI
+        weight: 1
+      - path: Pelvis/LTail1
+        weight: 1
+      - path: Pelvis/LTail1/LTail2
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9/LTailI
+        weight: 1
+      - path: Pelvis/RTail1
+        weight: 1
+      - path: Pelvis/RTail1/RTail2
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9/RTailI
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head/HeadI
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4/LFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4/LFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3/LFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4/LFinger4I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/Dummy001
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4/RFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4/RFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3/RFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4/RFinger4I
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: defense
+      takeName: Take 001
+      firstFrame: 380
+      lastFrame: 440
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gigas_body
+        weight: 1
+      - path: Gigas_Item
+        weight: 1
+      - path: Gigas_Rock
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Belt
+        weight: 1
+      - path: Pelvis/Belt/BeltI
+        weight: 1
+      - path: Pelvis/LTail1
+        weight: 1
+      - path: Pelvis/LTail1/LTail2
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9/LTailI
+        weight: 1
+      - path: Pelvis/RTail1
+        weight: 1
+      - path: Pelvis/RTail1/RTail2
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9/RTailI
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head/HeadI
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4/LFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4/LFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3/LFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4/LFinger4I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/Dummy001
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4/RFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4/RFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3/RFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4/RFinger4I
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: damage
+      takeName: Take 001
+      firstFrame: 450
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gigas_body
+        weight: 1
+      - path: Gigas_Item
+        weight: 1
+      - path: Gigas_Rock
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Belt
+        weight: 1
+      - path: Pelvis/Belt/BeltI
+        weight: 1
+      - path: Pelvis/LTail1
+        weight: 1
+      - path: Pelvis/LTail1/LTail2
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9/LTailI
+        weight: 1
+      - path: Pelvis/RTail1
+        weight: 1
+      - path: Pelvis/RTail1/RTail2
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9/RTailI
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head/HeadI
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4/LFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4/LFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3/LFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4/LFinger4I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/Dummy001
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4/RFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4/RFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3/RFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4/RFinger4I
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: faint
+      takeName: Take 001
+      firstFrame: 550
+      lastFrame: 610
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gigas_body
+        weight: 1
+      - path: Gigas_Item
+        weight: 1
+      - path: Gigas_Rock
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Belt
+        weight: 1
+      - path: Pelvis/Belt/BeltI
+        weight: 1
+      - path: Pelvis/LTail1
+        weight: 1
+      - path: Pelvis/LTail1/LTail2
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9/LTailI
+        weight: 1
+      - path: Pelvis/RTail1
+        weight: 1
+      - path: Pelvis/RTail1/RTail2
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9/RTailI
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head/HeadI
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4/LFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4/LFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3/LFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4/LFinger4I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/Dummy001
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4/RFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4/RFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3/RFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4/RFinger4I
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 680
+      lastFrame: 705
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gigas_body
+        weight: 1
+      - path: Gigas_Item
+        weight: 1
+      - path: Gigas_Rock
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Belt
+        weight: 1
+      - path: Pelvis/Belt/BeltI
+        weight: 1
+      - path: Pelvis/LTail1
+        weight: 1
+      - path: Pelvis/LTail1/LTail2
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9/LTailI
+        weight: 1
+      - path: Pelvis/RTail1
+        weight: 1
+      - path: Pelvis/RTail1/RTail2
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9/RTailI
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head/HeadI
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4/LFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4/LFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3/LFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4/LFinger4I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/Dummy001
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4/RFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4/RFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3/RFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4/RFinger4I
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: skill1
+      takeName: Take 001
+      firstFrame: 710
+      lastFrame: 770
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gigas_body
+        weight: 1
+      - path: Gigas_Item
+        weight: 1
+      - path: Gigas_Rock
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Belt
+        weight: 1
+      - path: Pelvis/Belt/BeltI
+        weight: 1
+      - path: Pelvis/LTail1
+        weight: 1
+      - path: Pelvis/LTail1/LTail2
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9/LTailI
+        weight: 1
+      - path: Pelvis/RTail1
+        weight: 1
+      - path: Pelvis/RTail1/RTail2
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9/RTailI
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head/HeadI
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4/LFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4/LFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3/LFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4/LFinger4I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/Dummy001
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4/RFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4/RFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3/RFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4/RFinger4I
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: skill2
+      takeName: Take 001
+      firstFrame: 770
+      lastFrame: 830
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gigas_body
+        weight: 1
+      - path: Gigas_Item
+        weight: 1
+      - path: Gigas_Rock
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Belt
+        weight: 1
+      - path: Pelvis/Belt/BeltI
+        weight: 1
+      - path: Pelvis/LTail1
+        weight: 1
+      - path: Pelvis/LTail1/LTail2
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9/LTailI
+        weight: 1
+      - path: Pelvis/RTail1
+        weight: 1
+      - path: Pelvis/RTail1/RTail2
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9/RTailI
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head/HeadI
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4/LFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4/LFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3/LFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4/LFinger4I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/Dummy001
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4/RFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4/RFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3/RFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4/RFinger4I
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: skill3
+      takeName: Take 001
+      firstFrame: 830
+      lastFrame: 900
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gigas_body
+        weight: 1
+      - path: Gigas_Item
+        weight: 1
+      - path: Gigas_Rock
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Belt
+        weight: 1
+      - path: Pelvis/Belt/BeltI
+        weight: 1
+      - path: Pelvis/LTail1
+        weight: 1
+      - path: Pelvis/LTail1/LTail2
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9/LTailI
+        weight: 1
+      - path: Pelvis/RTail1
+        weight: 1
+      - path: Pelvis/RTail1/RTail2
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9/RTailI
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head/HeadI
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4/LFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4/LFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3/LFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4/LFinger4I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/Dummy001
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4/RFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4/RFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3/RFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4/RFinger4I
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: skill4
+      takeName: Take 001
+      firstFrame: 900
+      lastFrame: 960
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gigas_body
+        weight: 1
+      - path: Gigas_Item
+        weight: 1
+      - path: Gigas_Rock
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Belt
+        weight: 1
+      - path: Pelvis/Belt/BeltI
+        weight: 1
+      - path: Pelvis/LTail1
+        weight: 1
+      - path: Pelvis/LTail1/LTail2
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9/LTailI
+        weight: 1
+      - path: Pelvis/RTail1
+        weight: 1
+      - path: Pelvis/RTail1/RTail2
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9/RTailI
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head/HeadI
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4/LFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4/LFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3/LFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4/LFinger4I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/Dummy001
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4/RFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4/RFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3/RFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4/RFinger4I
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: skill5
+      takeName: Take 001
+      firstFrame: 960
+      lastFrame: 1010
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gigas_body
+        weight: 1
+      - path: Gigas_Item
+        weight: 1
+      - path: Gigas_Rock
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/Belt
+        weight: 1
+      - path: Pelvis/Belt/BeltI
+        weight: 1
+      - path: Pelvis/LTail1
+        weight: 1
+      - path: Pelvis/LTail1/LTail2
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9
+        weight: 1
+      - path: Pelvis/LTail1/LTail2/LTail3/LTail4/LTail5/LTail6/LTail7/LTail8/LTail9/LTailI
+        weight: 1
+      - path: Pelvis/RTail1
+        weight: 1
+      - path: Pelvis/RTail1/RTail2
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9
+        weight: 1
+      - path: Pelvis/RTail1/RTail2/RTail3/RTail4/RTail5/RTail6/RTail7/RTail8/RTail9/RTailI
+        weight: 1
+      - path: Pelvis/Spine
+        weight: 1
+      - path: Pelvis/Spine/Spine1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head
+        weight: 1
+      - path: Pelvis/Spine/Spine1/Head/HeadI
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger1-1/LFinger1-2/LFinger1-3/LFinger1-4/LFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger2-1/LFinger2-2/LFinger2-3/LFinger2-4/LFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger3-1/LFinger3-2/LFinger3-3/LFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/LClavide/LUpperarm/LForearm/LHand/LFinger4-1/LFinger4-2/LFinger4-3/LFinger4-4/LFinger4I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/Dummy001
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger1-1/RFinger1-2/RFinger1-3/RFinger1-4/RFinger1I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger2-1/RFinger2-2/RFinger2-3/RFinger2-4/RFinger2I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger3-1/RFinger3-2/RFinger3-3/RFinger3I
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4
+        weight: 1
+      - path: Pelvis/Spine/Spine1/RClavide/RUpperarm/RForearm/RHand/RFinger4-1/RFinger4-2/RFinger4-3/RFinger4-4/RFinger4I
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

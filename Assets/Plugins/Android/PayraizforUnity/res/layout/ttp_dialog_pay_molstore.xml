@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ttp_ll_pay_dual"
+        style="@style/ttp_container_vertical"
+        android:baselineAligned="false"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/ttp_ly_bill_molstore_pinpay"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ttp_popup_btn_rollover" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/mol_pinpay" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="1dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ttp_icon_arrow" />
+
+            <TextView
+                android:id="@+id/ttp_tv_bill_molstore_pinpay_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView1"
+                android:layout_alignLeft="@+id/imageView1"
+                android:layout_alignTop="@+id/imageView1"
+                android:layout_toLeftOf="@+id/imageView4"
+                android:text="@string/ttp_btn_bill_molstore_pinpay"
+                android:textColor="#535353"
+                android:textSize="14sp"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:contentDescription="@null"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/ttp_popup_line" />
+
+        <RelativeLayout
+            android:id="@+id/ttp_ly_bill_molstore_walletpay"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ttp_popup_btn_rollover" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="1dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ttp_icon_arrow" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="false"
+                android:layout_centerVertical="true"
+                android:src="@drawable/mol_walletpay" />
+
+            <TextView
+                android:id="@+id/ttp_tv_bill_molstore_walletpay_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView2"
+                android:layout_alignLeft="@+id/imageView2"
+                android:layout_alignRight="@+id/imageView6"
+                android:layout_alignTop="@+id/imageView2"
+                android:text="@string/ttp_btn_bill_molstore_walletpay"
+                android:textColor="#535353"
+                android:textSize="14sp"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+        
+        <ImageView
+            android:contentDescription="@null"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/ttp_popup_line" />
+
+        <RelativeLayout
+            android:id="@+id/ttp_ly_bill_molstore_easy2pay"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ttp_popup_btn_rollover" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/mol_easy2pay" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="1dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ttp_icon_arrow" />
+
+            <TextView
+                android:id="@+id/ttp_tv_bill_molstore_easy2pay_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_alignLeft="@+id/imageView3"
+                android:layout_alignRight="@+id/imageView5"
+                android:layout_alignTop="@+id/imageView3"
+                android:text="@string/ttp_btn_bill_molstore_easy2pay"
+                android:textColor="#535353"
+                android:textSize="14sp"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

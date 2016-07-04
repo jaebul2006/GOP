@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>     
+    <color name="mol_gray">#f2f2f2</color> 
+    <color name="mol_white">#ffffff</color>
+    <color name="mol_red">#ff6600</color>
+    <color name="mol_opertor">#cfcfcf</color>
+    <color name="mol_pink">#f2f2f2</color>
+    <color name="mol_input_txtcolor">#545454</color>
+    <color name="mol_black">#282828</color>
+    <color name="mol_black_1">#666666</color>
+    
+    <color name="mol_text_red">#ff0000</color>
+    <color name="mol_gray_1">#969696</color>
+    
+</resources>

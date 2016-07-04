@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/mol_dialog_width"
+        android:layout_height="@dimen/mol_login_pin_height"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/mold_padding"
+        >
+        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mol_login_title"
+            style="@style/mol_base_title_text"
+            android:ellipsize="end" 
+            android:maxLines="2"
+            android:id="@+id/mol_wallet_title_line"/>
+        
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mold_padding"
+            android:hint="@string/mol_email"
+            android:background="@drawable/mol_edit_bg"
+            android:singleLine="true"
+            android:paddingLeft="@dimen/mold_padding"
+            android:paddingRight="@dimen/mold_padding"
+            android:id="@+id/mol_wallet_email"
+            android:inputType="textEmailAddress"
+            android:imeOptions="flagNoExtractUi"
+            android:textColor="@color/mol_input_txtcolor" />
+        
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mold_padding"
+            android:hint="@string/mol_password"
+            android:background="@drawable/mol_edit_bg"
+            android:singleLine="true"
+            android:paddingLeft="@dimen/mold_padding"
+            android:paddingRight="@dimen/mold_padding"
+            android:id="@+id/mol_wallet_pwd"
+            android:imeOptions="flagNoExtractUi"
+            android:textColor="@color/mol_input_txtcolor"
+            android:inputType="textEmailAddress"
+             />
+        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="@dimen/mol_input_error_height"
+            android:textColor="@color/mol_text_red"
+            android:gravity="bottom"
+            android:paddingLeft="@dimen/mold_padding"
+            android:paddingRight="@dimen/mold_padding"
+            android:id="@+id/mol_wallet_info" />
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom"
+            android:layout_marginTop="@dimen/mol_line_padding"
+            android:paddingLeft="@dimen/mold_padding"
+            android:paddingRight="@dimen/mold_padding" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mol_logo" />
+
+            <Button
+                style="@style/mol_base_confirm_text"
+                android:layout_alignParentRight="true"
+                android:text="@string/mol_login"
+                android:id="@+id/mol_wallet_pay"/>
+        </RelativeLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

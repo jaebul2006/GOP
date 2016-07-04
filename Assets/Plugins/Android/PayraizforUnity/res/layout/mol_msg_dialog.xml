@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/mol_dialog_width"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/mold_padding" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/mol_info_height"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/mol_alter_msg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/mol_item_text"
+                android:textColor="@color/mol_black" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/mol_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mol_logo"
+                android:layout_alignParentLeft="true" />
+
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <Button
+	                style="@style/mol_base_confirm_text"
+	                android:layout_marginRight="10dp"
+	                android:text="@string/mol_pay_no"
+	                android:id="@+id/mol_cancel" />
+                
+                <Button
+	                style="@style/mol_base_confirm_text"
+	                android:id="@+id/mol_affirm"
+	                android:layout_alignParentRight="true"
+	                android:text="@string/mol_pay_yes" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
